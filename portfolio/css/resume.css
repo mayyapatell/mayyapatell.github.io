@@ -37,7 +37,14 @@ h2 {
     color: black;
     text-align: center;
     font-size: large;
-    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+h3 {
+    color: black;
+    text-align: left;
+    font-size: large;
+    text-decoration:underline;
 }
 
 
@@ -45,6 +52,6 @@ p {
     color: #664C4B;
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 120%;
-    text-align: center;
+    font-size: 100%;
+    text-align: left;
 }

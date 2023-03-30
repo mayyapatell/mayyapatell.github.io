@@ -1,33 +1,64 @@
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #f1a4a7;
 } 
+
+.home {
+  background-color: #f1a4a7;
+}
+
+.home p {
+  color:#664C4B;
+  font-size: 120%;
+}
+
+.sub {
+  background-color: white;
+}
+
 nav {
-  background-color: whitesmoke;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 nav a {
-  color: #fa7e63;
-  text-align: center;
-  padding: 18px 18px;
   text-decoration: none;
 }
 
-/* Add a hover effect to the links */
-nav a:hover {
+.home nav {
+  background-color: whitesmoke;
+}
+
+.sub nav {
+  background-color: #68c9cd;
+}
+
+.home nav a{
+  color:#f1a4a7;
+  padding: 18px 18px;
+}
+
+.sub nav a {
+  color:#000000;
+  padding: 14px 14px;
+}
+
+.home nav a:hover {
   background-color: #ffe0c0;
   color: black;
 }
 
-.container {
+.sub nav a:hover {
+  background-color: #ffe0c0;
+  color:#fa7e63;
+}
+
+h1,
+h2,
+.home .container {
   text-align: center;
 }
 
 h1 {
     color: #000000;
-    text-align: center;
     font-size: 300%;
     font-weight: bold;
     margin-top: 100px;
@@ -36,16 +67,24 @@ h1 {
 
 h2 {
   color: black;
-    text-align: center;
     font-size: large;
     margin-bottom: 50px;
 }
 
-p {
-    color: #664C4B;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 120%;
-    text-align: center;
+.home img{
+  height: 250px;
 }
 
+footer{
+margin: 1em 0 0 0;
+}
+
+.clips li {
+  padding: 1em 0;
+}
+
+.resume h3 {
+  text-align: center;
+  font-size: large; 
+  text-decoration: underline;
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: 'Open Sans', 'Cabin Condensed', sans-serif;
+    background-color: #fafafa;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container {
+    text-align: left;
+    background-color: #0e171a;
+    color: #fafafa;
+    padding: 100px;
+}
+
+.container p {
+    font-size: .65em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    padding: 20px;
+    text-align: justify;
+}
+
+.container h1 {
+    font-family: 'Cabin Condensed';
+    font-size: 3em;
+}
+
+.container a {
+    color: #fafafa;
+    text-decoration: underline;
+    text-decoration-color: #fafafa;
+}
+
+.main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Cabin Condensed';
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0e171a;
+}
+
+h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: #0e171a;
+}
+
+h4 {
+    font-size: 1.25em;
+    color: #b2322d;
+    text-align: center;
+    padding: 50px;
+}
+
+.info p {
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+    font-size: .95em;
+}
+
+.offset-md-3 {
+    font-family: 'Cabin Condensed';
+    letter-spacing: 1px;
+    font-size: .95em;
+}
+
+.offset-md-3 p {
+    color: #0e171a;
+}
+
+.offset-md-3 b {
+    background-color: #b2322d;
+    color: #ffffff;
+    padding: 0px 10px 0 10px;
+}
+
+.info,
+.offset-md-3 {
+    border-left: 3px solid #b2322d;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: #b2322d;
+    text-decoration: underline;
+    text-decoration-color: #b2322d;
+}
+
+a {
+    color: #0e171a;
+}
+
+footer {
+    font-family: 'Open Sans';
+    font-size: .65em;
+    margin-top: 50px;
+}

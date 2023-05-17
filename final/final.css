@@ -5,6 +5,7 @@ body {
     margin-right: 100px;
 }
 
+
 p {
     font-size: 1em;
     letter-spacing: 1.5px;
@@ -101,3 +102,20 @@ footer{
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 14px;
+    }
+    h2,h3, p {
+      font-size: 11px;
+    }
+    video,img {
+        max-width: 100%;
+        height: auto;
+    }
+    .main {
+        margin-left: 0px;
+        margin-right: 0px;
+  }
+       }
